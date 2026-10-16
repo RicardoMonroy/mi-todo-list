@@ -6,7 +6,7 @@
 }
 
 body {
-    background: #522124;
+    background: #E8E3E6;
     color: #333;
     min-height: 100vh;
     display: flex;
@@ -73,11 +73,15 @@ ul {
 }
 
 .completada .texto {
-    background: #7cca0f;
+    text-decoration: line-through;
 }
 
 #contador-tareas {
     margin-top: 1rem;
     color: #666;
     font-size: 0.9rem;
+}
+
+footer {
+    margin-top: auto;
 }
